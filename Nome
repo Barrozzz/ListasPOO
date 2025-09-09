@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Nome {
+    String nome;
+    String sobrenome;
+
+    public Nome(String nome, String sobrenome) {
+        this.nome = nome;
+        this.sobrenome = sobrenome;
+    }
+
+    public String getNomeCompleto() {
+        return "Seu nome completo é: " + nome + " " + sobrenome;
+    }
+}
